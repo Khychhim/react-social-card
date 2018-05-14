@@ -3,8 +3,12 @@ import ReactDOM from 'react-dom';
 
 class TitleIcon extends React.Component{
   render() {
+    var icon = "/image/"+this.props.icon;
+
     return (
-      <div />
+      <div>
+        <img src={icon}/>
+      </div>
     );
   }
 }

@@ -2,15 +2,77 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-left: -200px;
-  margin-top: -200px;
-  height: 400px;
-  width: 400px;
-  background: linear-gradient(to top right, #1E851E 0%, #6BDF94 100%);
-  box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
-  color: #fff;
+  margin-left: -300px;
+  margin-top: -300px;
+  height: 600px;
+  width: 600px;
+  background: #fff;
+  box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.3);
+  color: #000;
 }
 
-.center{
+.title{
+  margin: 3%;
+}
 
+.title img{
+  float:left;
+  max-width: 10%;
+  max-height: 10%;
+}
+
+.title p{
+  margin: auto;
+  margin-bottom: 5px;
+  margin-left: 12%;
+}
+
+.bodyframe{
+  position: relative;
+  left: 14.5%;
+  height: 70%;
+  width: 83%;
+  background: #fff;
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
+  color: #000;
+  border-radius: 10px;
+}
+
+.bodyframe img{
+  height: 75%;
+  height: auto;
+  max-width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 3%;
+}
+
+.bodyframe p{
+  margin: auto;
+  margin-left: 4%;
+  padding-bottom: 1%;
+}
+
+.bodyframe a:link{
+  color: #000;
+  text-decoration: none;
+}
+
+.bodyframe a:hover{
+  color: #000;
+  text-decoration: underline;
+}
+
+.bodyframe a:active, .bodyframe a:visited{
+  color:#996699;
+}
+
+.footerframe{
+  position: relative;
+  left: 15%;
+  top: 3.5%;
+}
+
+.footerframe p{
+  display: inline;
+  padding-right: 8%;
 }
